@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER NAVBAR */
+.colorbox1 {
+    background-color: #ECECEC;
+    height: 22px; 
+}
+
+.parent {
+    height: 20px;
+    display: flex;
+    font-size: 9px;
+    margin-left: 270px;
+    /* margin-top: 10px; */
+}
+.parent h3{
+    margin-top: 1.9px;
+}
+
+.child {
+    margin-top: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #343434;
+}
+
+#child1 {
+    color: #F48954;
+}
+
+/* search bar line start */
+#parent1 {
+    display: flex;
+}
+
+.pic {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#pic1 img {
+    margin-left: 75px;
+    width: 122px;
+    height: 37px;
+}
+
+.pic2-input {
+    margin-left: 75px;
+    height: 40px;
+    width: 570px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.micro {
+    background-color: #F57224;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#pic2 i {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#pic3 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#pic4 img {
+    width: 170px;
+    height: 40px;
+    margin-left: 60px;
+}
+/* search bar line compelete */
+
+ /* contant pics start  */
+ .parent2{
+    display: flex;
+    margin-top: 9px;
+ }
+.contant-pic1 img{
+    margin-left: 4px;
+    height: 300px;
+    width: 111%;
+    margin-top: 12px;
+    /* margin-left: 270px; */
+}
+.pics-color{
+    background-color: #A6DBD5;
+    height:300px ;
+    width: 7%;
+    margin-top: 12px;
+}
+    
+.contant-box{
+    height:300px ;
+    width: 14%;
+    margin-top: 12px;
+    box-shadow: 1px 1px 1px 2px gray;
+ }
+ .contant-box ul{
+    /* text-align: center; */
+    list-style: none;
+    color:#959595 ;
+    font-size: 15px;
+    margin-left: 7px;
+    line-height: 25px;
+    margin-top: 13px;
+}
+.contant-box ul li:hover{
+    cursor: pointer;
+    border: solid;
+    height: 18px;
+    width: 100%;
+    background-color: #D5D5D5;
+    margin-bottom: 10px;
+}
+ /* contant pics compelete  */
+ /* main body color */
+ .main-color-body{
+    background-color: #F5F5F5;
+ }
+ /* EVENT PIC DARAZ */
+ .event-pic img{
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 120px;
+    width: 80%;
+    height: 200px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 1px 2px gray;
+ }
+ /* logos table strat */
+ .parent3{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .logos{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left:25px ;
+    background-color:#ffffff ;
+ }
+ .logos img{
+    height: 40px;
+    width: 40px;
+ }
+.logos p{
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+ .logos:hover{
+    box-shadow:1px 1px 1px 0.5px gray ;
+    cursor: pointer;
+ }
+ /* logos table compelete */
+
+ /* sells images flash sales START */
+.flash-sell{
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 20px;
+}
+.flash-sell h3{
+    color: #8A7575 ;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.parent4{
+    /* border:solid; */
+    height: 400px;
+    width: 88%;
+    margin-left:6% ;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #D5D5D5;
+}
+
+#coutdown-line1{
+    color: #F48954;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.countdown-parent{
+    display: flex;
+    
+}
+#coutdown-line2{
+    display: flex;
+    margin-left:100px ;
+    cursor: pointer;
+}
+.countdown-child{
+    margin-top: 5px;
+    margin-left:10px ;
+    height: 35px;
+    width: 35px;
+    background-color: #F57224;
+    color:#fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.countdown-child p{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#countdown-child1{
+    margin-top: 14px;
+}
+
+#coutdown-line3{
+    margin-top: 5px;
+    border: solid #F57224 2px;
+    width: 100px;
+    height: 30px;
+    color: #F57224;
+   margin-left: 500px;
+   font-size: 13px;
+   border-radius: 3px;
+   text-align: center;
+   cursor: pointer;
+}
+#coutdown-line3 h6{
+    margin-top: 7px;   
+}
+.sells-pic-parent{
+    border-top:solid #D5D5D5 1px;
+    margin-top: 10px;
+display: flex;
+    
+}
+.sells-pic{
+    /* border: solid; */
+    height: 270px;
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.sells-pic img{
+    height: 180px;
+    width: 100%;
+}
+#sells-pic6{
+    margin-right: 5px;
+}
+.sells-pic:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 2px #D5D5D5;
+}
+.sells-pic p {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.product-price{
+    color: #F57224;
+    font-size: 15px;
+    margin-left:10px ;
+    line-height: 20px;
+}
+.cut-product-price del{
+    color: #8A7575;
+    font-size:10px ;
+    
+    margin-left: 10px;
+}
+
+.cut-product-price ins{
+    color: #8A7575;
+    font-size:10px ;
+    margin-left:10px ;
+    
+}
+
+ /* first sells images flash sales COMPELTE */
+ /* second sells images flash sales COMPELTE */
+.parent5{
+    width: 88%;
+    margin-left: 6%;
+}
+ /* second images flash sales COMPELTE */
+
+  /* load more button  start*/
+  .btn{
+    width: 350px;
+    height: 35px;
+    color: #F57224;
+    margin-left:35% ;
+    border: solid #F57224 1.5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  /* load more button  compelete*/
+  /* footer start */
+.color-box-footer{
+    border:solid ;
+    background-color:#2E2E54 ;
+    width: 99%;
+    height: 400px;
+    margin-top: 20px;
+}
+.parent6{
+    display: flex;
+}
+.contact-box{
+    color: #ffffff;
+    line-height: 20px;
+    margin-left: 100px;
+}
+.contact-box h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.contact-box ul li{
+ font-size: 13px;
+ list-style: none;
+}
+#contact-box2 h3{
+    margin-top: 65px;
+}
+.barcode{
+    margin-top: 30px;
+    display: flex;
+    
+}
+.barcode-logo1 img{
+    height: 150px;
+    width: 140px;
+    border-radius: 9px;
+    margin-left: 15px;
+}
+.barcode-logo2 img{
+    height:70px ;
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.barcode-logo3 img{
+    margin-top: 10px;
+    height: 50px;
+    width: 150;
+}
+
+.barcode-logo4 img{
+    height: 70px;
+    width: 200;
+}
+  /* footer compelete */
